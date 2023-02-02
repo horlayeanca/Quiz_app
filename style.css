@@ -71,6 +71,9 @@ button:focus {
   .quiz-container {
     width: 80%;
   }
+  .quiz-header {
+    padding: 1.5rem;
+  }
   h2 {
     padding: 0.5rem;
     font-size: medium;
