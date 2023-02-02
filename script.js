@@ -1,35 +1,81 @@
 const quizData = [
   {
-    question: "Which language runs in a web browser?",
-    a: "Java",
-    b: "C",
-    c: "Python",
-    d: "JavaScript",
-    correct: "d",
-  },
-  {
-    question: "What does CSS stand for?",
-    a: "Central Style Sheets",
-    b: "Cascading Style Sheets",
-    c: "Cascading Simple Sheets",
-    d: "Cars SUVs Sailboats",
-    correct: "b",
-  },
-  {
-    question: "What does HTML stand for?",
-    a: "Hypertext Markup Language",
-    b: "Hypertext Markdown Language",
-    c: "Hyperloop Machine Language",
-    d: "Helicopters Terminals Motorboats Language",
+    question: "JavaScript is an _______________ language?",
+    a: "Object-Oriented",
+    b: "Object-Based",
+    c: "Procedural",
+    d: "None of the above",
     correct: "a",
   },
   {
-    question: "What year was JavaScript launched?",
-    a: "1996",
-    b: "1995",
-    c: "1994",
-    d: "none of the above",
-    correct: "b",
+    question:
+      "Which of the following keywords is used to define a variable in JavaScript?",
+    a: "var",
+    b: "let",
+    c: "const",
+    d: "All of the above",
+    correct: "d",
+  },
+  {
+    question:
+      "Which of the following methods is used to access HTML elements using JavaScript?",
+    a: "getElementById()",
+    b: "getElementsByClassName()",
+    c: "Both A and B",
+    d: "None of the above",
+    correct: "c",
+  },
+  {
+    question:
+      "Which of the following methods can be used to to display data in some form using JavaScript?",
+    a: "document.write()",
+    b: "console.log()",
+    c: "window.alert",
+    d: "All of the above",
+    correct: "d",
+  },
+  {
+    question: "How can datatype be declared to be a constant type?",
+    a: "const",
+    b: "var",
+    c: "let",
+    d: "constant",
+    correct: "a",
+  },
+  {
+    question:
+      "When the switch statement matches the expression with the given labels, how is the comparison done?",
+    a: "Both the datatype and the result of the expressiion are compared.",
+    b: "Only the datatype of the expression is compared.",
+    c: "Only the value of the expression is compared.",
+    d: "None of the above.",
+    correct: "a",
+  },
+  {
+    question:
+      "What keyword is used to check whether a given property is valid or not?",
+    a: "in",
+    b: "is in",
+    c: "exist",
+    d: "lies",
+    correct: "a",
+  },
+  {
+    question: "What is the use of the <noscript> tag in javascript?",
+    a: "The contents are displayed by non-JS-based browsers.",
+    b: "Clears all the cookies and cache.",
+    c: "Both A and B",
+    d: "None of the above.",
+    correct: "a",
+  },
+  {
+    question:
+      "When an operator's value is NULL, the typeof returned by the unary operator is:",
+    a: "Boolean",
+    b: "Undefined",
+    c: "Obeject",
+    d: "Integer",
+    correct: "c",
   },
 ];
 
