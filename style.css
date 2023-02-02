@@ -66,3 +66,17 @@ button:focus {
   outline: none;
   background-color: #44b927;
 }
+
+@media screen and (max-width: 500px) {
+  .quiz-container {
+    width: 80%;
+  }
+  h2 {
+    padding: 0.5rem;
+    font-size: medium;
+  }
+  ul li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+}
