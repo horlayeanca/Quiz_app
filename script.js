@@ -77,6 +77,14 @@ const quizData = [
     d: "Integer",
     correct: "c",
   },
+  {
+    question: "What does the JavaScript 'debuger' statement do?",
+    a: "in",
+    b: "is in",
+    c: "exist",
+    d: "lies",
+    correct: "a",
+  },
 ];
 
 const quiz = document.getElementById("quiz");
