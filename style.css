@@ -12,6 +12,12 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0%;
+  flex-direction: column;
+}
+
+.title {
+  font-size: large;
+  font-weight: 600;
 }
 
 .quiz-container {
